@@ -1,0 +1,76 @@
+.header img
+{
+    float: left;
+    margin-top: 10px;
+    margin-left: 200px;
+    margin-right: -150px;
+    width: 250px;
+    background: #555;
+}
+
+.header h1
+{
+    position: relative;
+    top: 18px;
+    left: 10px;
+    text-align: center;
+    font-size: 250%;
+    font-family: georgia;
+    margin-top: 50px;
+    margin-bottom: 35px;
+    color: lightseagreen;
+}
+
+body
+{
+    background-color: lightcyan;
+    font-size: 110%;
+    text-align: center;
+    line-height: 1.5;
+}
+
+information
+{
+    line-height: 0.2;
+}
+
+footer
+{
+    margin-top: 100px; 
+    font-size: small;
+    text-align: center;
+    color: lightseagreen;
+}
+
+subheader
+{
+    text-align: center;
+    font-size: 150%;
+    color: lightseagreen;
+    font-style: italic;
+    margin-bottom: 25px;
+}
+
+/* general links */
+a:link
+{
+    color: lightseagreen;
+}
+
+/* visited link */
+a:visited
+{
+    color: lightseagreen;
+}
+
+/* unvisited link*/
+a:unvisited
+{
+    color: lightseagreen;
+}
+
+/* link is now hovered over */
+a:hover
+{
+    color: lightseagreen;
+}
