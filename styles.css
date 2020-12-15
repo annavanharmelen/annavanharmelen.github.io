@@ -1,12 +1,20 @@
-/* Header image*/
-#header-background
+.header-image
 {
-    width: 100%;
-    height: 170px;
-    margin-top: 10px;
-    background:url("header_image_temp.jpg");
-    text-align:center;
-    background-position: center;
+    height:150px;
+    width: auto;
+    border-radius: 50%;
+    border: 7px solid #8FB0A6;
+    margin-top: 15px;
+}
+
+h1
+{
+    position: relative;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Raleway';
+    margin-bottom: 15px;
+    color: black;
 }
 
 /* The navbar container */
@@ -32,19 +40,18 @@
 /* Links - change color on hover */
 .topnav a:hover
 {
-    background-color: black;
+    background-color: #8FB0A6;
     color: white;
 }
 
 img
 {
-    margin-top: 100px;
+    margin-top: 75px;
     margin-right: 30px;
-    width: 150px;
-    border-radius: 50%;
+    width: 300px;
 }
 
-h1
+h2
 {
     position: relative;
     text-align: left;
@@ -69,13 +76,15 @@ body
 .column1
 {
   float: left;
-  width: 60%;
+  width: 55%;
+  max-width: 430px;
+  min-width: 100px;
 }
 
 .column2
 {
   float: left;
-  width: 40%;
+  width: 45%;
 }
 
 /* Clear floats after the columns */
@@ -108,23 +117,23 @@ footer
 /* general links */
 a:link
 {
-    color: black;
+    color: #8FB0A6;
 }
 
 /* visited link */
 a:visited
 {
-    color: black;
+    color: #8FB0A6;
 }
 
 /* unvisited link*/
 a:unvisited
 {
-    color: black;
+    color: #8FB0A6;
 }
 
 /* link is now hovered over */
 a:hover
 {
-    color: lightseagreen;
+    color: #A1C7BC;
 }
